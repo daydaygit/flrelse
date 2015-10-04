@@ -242,6 +242,11 @@ __LIBS := $(subst $(obj),,$(LIBS))
 ALL = $(obj)u-boot.srec $(obj)u-boot.bin $(obj)System.map $(U_BOOT_NAND)
 
 all:		$(ALL)
+		@echo "make done."
+		@echo ""
+		@echo "================================================"
+		@echo "Now, run fastboot.sh"
+		./../misc/fastdo.sh
 
 $(obj)u-boot.hex:	$(obj)u-boot
 		$(OBJCOPY) ${OBJCFLAGS} -O ihex $< $@
@@ -331,6 +336,30 @@ dep tags ctags etags $(obj)System.map:
 	@echo "System not configured - see README" >&2
 	@ exit 1
 endif
+
+.PHONY : list
+list:
+	@echo "\n The object list as follows:"
+	@echo "    1. smdk2400_config"
+	@echo "    2. smdk2410_config"
+	@echo "    3. smdk2412_config"
+	@echo "    4. smdk2440_config"
+	@echo "    5. smdk2460_config"
+	@echo "    6. smdk24a0_config"
+	@echo "    7. smdk6400_config"
+	@echo "    8. smdk6410_config"
+	@echo "    9. forlinx_nand_ram128_config"
+	@echo "    10. forlinx_sd_ram128_config"
+	@echo "    11. forlinx_nand_ram128_hdmi_config"
+	@echo "    12. forlinx_nand_ram256_config"
+	@echo "  * 13. forlinx_sd_ram256_config"
+	@echo "    14. forlinx_nand_ram256_hdmi_config"
+	@echo "    15. smdk6430_config"
+	@echo "    16. smdk2443_config"
+	@echo "    17. smdk2450_config"
+	@echo "    18. smdk2416_config"
+	@echo "    19. smdk2442_config"
+	@echo "    20. smdk_mp_config"
 
 .PHONY : CHANGELOG
 CHANGELOG:
@@ -1816,7 +1845,6 @@ csb637_config	:	unconfig
 mp2usb_config	:	unconfig
 	@$(MKCONFIG) $(@:_config=) arm arm920t mp2usb NULL at91rm9200
 
-
 ########################################################################
 ## ARM Integrator boards - see doc/README-integrator for more info.
 integratorap_config	\
@@ -2394,6 +2422,7 @@ clobber:	clean
 	[ ! -d $(OBJTREE)/nand_spl ] || find $(obj)nand_spl -lname "*" -print | xargs rm -f
 
 ifeq ($(OBJTREE),$(SRCTREE))
+# 6410 run here:
 mrproper \
 distclean:	clobber unconfig
 else
