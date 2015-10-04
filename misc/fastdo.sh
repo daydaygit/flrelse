@@ -2,6 +2,9 @@
 
 #copy_imgs_name=u-boot.bin
 
+#global variable:
+# checkpfrest
+
 function current_script_path()
 {
   filepath=$(cd "$(dirname "$0")"; pwd)
