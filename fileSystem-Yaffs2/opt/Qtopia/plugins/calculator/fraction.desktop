@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name[]=Fraction
-Comment[]=Calculate with fractions
-X-QPE-Library=libfraction.so
-[Translation]
-File=QtopiaPlugins
-Context=Calculator

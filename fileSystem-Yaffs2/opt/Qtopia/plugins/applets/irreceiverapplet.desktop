@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name[]=Beaming
-Comment[]=Adds beaming controls to the Q-Menu.
-X-QPE-Library=libirreceiverapplet.so
-[Translation]
-File=QtopiaPlugins
-Context=Applets

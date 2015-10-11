@@ -1,6 +1,0 @@
-[Translation]
-File=QtopiaServices
-Context=Service:Name
-[Service]
-Actions=QDLRequestLink(QString,QString);QDLRequestAllLinks(QString,QString);QDLActivateLink(QString)
-Multiple=1

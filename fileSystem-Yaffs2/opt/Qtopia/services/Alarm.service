@@ -1,7 +1,0 @@
-[Translation]
-File=QtopiaServices
-Context=Alarm
-[Service]
-Actions = editAlarm()
-Icon = alarmbell
-Name[]=Edit Alarm
