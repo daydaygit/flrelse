@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/patches
+END
+yaffs_linux_allocator.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/patches/yaffs_linux_allocator.c
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/patches/README.txt
+END
+yaffs_mtdif2.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/patches/yaffs_mtdif2.c
+END

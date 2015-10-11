@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct
+END
+yaffs_qsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_qsort.c
+END
+yaffs_attribs.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_attribs.c
+END
+yaffsfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffsfs.c
+END
+yaffs_flashif.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_flashif.c
+END
+yaffsfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffsfs.h
+END
+yaffs_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_list.h
+END
+yaffs_flashif.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_flashif.h
+END
+yaffs_error.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_error.c
+END
+ydirectenv.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/ydirectenv.h
+END
+yaffs_nandif.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_nandif.c
+END
+yaffs_hweight.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_hweight.c
+END
+yaffs_osglue.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_osglue.h
+END
+yaffs_flashif2.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_flashif2.h
+END
+yportenv.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yportenv.h
+END
+yaffs_nandif.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_nandif.h
+END
+yaffs_hweight.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_hweight.h
+END
+yaffscfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffscfg.h
+END
+yaffs_nandemul2k.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sourcecode-linux/!svn/ver/131/linux3.0/linux-3.0.1/yaffs2/direct/yaffs_nandemul2k.h
+END
