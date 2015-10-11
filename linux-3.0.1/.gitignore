@@ -10,12 +10,12 @@
 # Normal rules
 #
 .*
-*.o
+### *.o
 *.o.*
 *.a
 *.s
-*.ko
-*.so
+### *.ko
+### *.so
 *.so.dbg
 *.mod.c
 *.i
@@ -23,7 +23,7 @@
 *.symtypes
 *.order
 modules.builtin
-*.elf
+### *.elf
 *.bin
 *.gz
 *.bz2
@@ -38,10 +38,10 @@ modules.builtin
 #
 /tags
 /TAGS
-/linux
-/vmlinux
-/vmlinuz
-/System.map
+### /linux
+### /vmlinux
+### /vmlinuz
+### /System.map
 /Module.markers
 /Module.symvers
 
@@ -54,10 +54,10 @@ modules.builtin
 #
 # Generated include files
 #
-include/config
-include/linux/version.h
-include/generated
-arch/*/include/generated
+### include/config
+### include/linux/version.h
+### include/generated
+### arch/*/include/generated
 
 # stgit generated dirs
 patches-*
