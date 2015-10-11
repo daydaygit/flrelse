@@ -155,6 +155,11 @@ if [ "$9" = "hdmi" ] ; then
 	echo "#define FORLINX_LCDOUT_HDMI" >> config.h
 fi
 
+BUILD_TM=`date '+%Y-%m-%d %H:%M:%S'`
+echo "/* Automatically generated - do not edit */" >   build_fl_uboot_last_time.h
+echo ""                                            >>  build_fl_uboot_last_time.h
+echo "/*char  build_time = \"${BUILD_TM}\";*/"     >>  build_fl_uboot_last_time.h
+echo "#define build_time   \"${BUILD_TM}\""        >>  build_fl_uboot_last_time.h
 
 echo "#include <configs/$1.h>" >>config.h
 

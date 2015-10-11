@@ -119,15 +119,19 @@ ulong get_UCLK(void)
     return (get_PLLCLK(EPLL));
 }
 
+#include "../../../include/build_fl_uboot_last_time.h"
+
 int print_cpuinfo(void)
 {
-    printf("****************************************\r\n");
-    printf("**    u-boot 1.1.6                    **\r\n");
+    printf("******************************************\r\n");
+    printf("**    u-boot 1.1.6                      **\r\n");
     printf("**    Updated for OK6410  TE6410 Board  **\r\n");
-    printf("**    Version (2012-09-23)          **\r\n");
-    printf("**    OEM: Forlinx Embedded           **\r\n");
-    printf("**    Web: http://www.witech.com.cn   **\r\n");
-    printf("****************************************\r\n");
+    printf("**    Version (2012-09-23)              **\r\n");
+    printf("**    OEM: Forlinx Embedded             **\r\n");
+    printf("**    Web: http://www.witech.com.cn     **\r\n");
+    printf("******************************************\r\n");
+
+    printf("======  Build Time: %s.  ======\r\n",build_time);
 
     printf("\nCPU:     S3C6410 @%dMHz\n", get_ARMCLK()/1000000);
     printf("         Fclk = %dMHz, Hclk = %dMHz, Pclk = %dMHz",

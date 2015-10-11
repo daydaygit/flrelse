@@ -351,8 +351,8 @@ list:
 	@echo "    9. forlinx_nand_ram128_config"
 	@echo "    10. forlinx_sd_ram128_config"
 	@echo "    11. forlinx_nand_ram128_hdmi_config"
-	@echo "    12. forlinx_nand_ram256_config"
-	@echo "  * 13. forlinx_sd_ram256_config"
+	@echo "  * 12. forlinx_nand_ram256_config"
+	@echo "    13. forlinx_sd_ram256_config"
 	@echo "    14. forlinx_nand_ram256_hdmi_config"
 	@echo "    15. smdk6430_config"
 	@echo "    16. smdk2443_config"
@@ -2419,6 +2419,7 @@ clobber:	clean
 	rm -f $(obj)tools/crc32.c $(obj)tools/environment.c $(obj)tools/env/crc32.c
 	rm -f $(obj)tools/inca-swap-bytes $(obj)cpu/mpc824x/bedbug_603e.c
 	rm -f $(obj)include/asm/proc $(obj)include/asm/arch $(obj)include/asm
+	rm -f $(obj)include/build_fl_uboot_last_time.h
 	[ ! -d $(OBJTREE)/nand_spl ] || find $(obj)nand_spl -lname "*" -print | xargs rm -f
 
 ifeq ($(OBJTREE),$(SRCTREE))
