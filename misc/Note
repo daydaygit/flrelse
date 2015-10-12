@@ -3,5 +3,20 @@ operation setp:
 1.u-boot
   1.1 make distclean/clean
   1.2 make list
-  1.3 make forlinx_sd_ram256_config
+  1.3 make forlinx_nand_ram256_config  or  forlinx_sd_ram256_config
   1.4 make all
+
+  It will create u-boot.bin,
+   copy it to SD card,
+   it will be wrote to nand when booting in SD boot mode.
+
+2.kernel
+  2.1 make uImage
+
+  It will create uImage in arch/arm/boot/,
+   copy it to SD card,
+   it will be wrote to nand when booting in SD boot mode.
+
+3.fs
+  3.1 chmod a+x ./mkyaffsTools/mkyaffs2image-nand2g
+      ./mkyaffsTools/mkyaffs2image-nand2g  fileSystem-Yaffs2  rootfs.yaffs2
